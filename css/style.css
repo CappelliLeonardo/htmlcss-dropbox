@@ -82,6 +82,98 @@ DEBUG
     display: flex;
 }
 
+/*
+
+MAIN
+
+*/
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    min-height: 200px;
+    border: 1px dashed black;
+    width: 30%;
+    background-color: lightcoral;
+}
+
+.card.horizontal{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Second section  */
+
+.box-flex{
+    display: flex;
+    min-height: 400px;
+    margin-top: 50px;
+}
+
+.box-img{
+    width: 60%;
+    border: 1px dashed black;
+    background-color: lightcoral;
+}
+.box-text{
+    width: 40%;
+    border: 1px dashed black;
+    background-color: aqua;
+}
+
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+.title-third-section{
+    width: 100%;
+    text-align: center;
+}
+.box-third-section{
+    border: 1px dashed black;
+    min-height: 300px;
+    width: calc((100% / 3) - 50px);
+    margin: 25px;
+    background-color: lightcoral;
+}
+
+.fourth-section{
+    margin-top: 100px;
+    margin-left:  25px;
+    margin-right: 25px;
+    border: 1px dashed black;
+}
+
+.fifth-section{
+    width: 100%;
+    border: 1px dashed black;
+    height: calc(100vw / 3);
+    display: flex;
+    margin-top: 50px;
+}
+
+.medium-box{
+    width: calc(100% / 3);
+    border: 1px dashed black;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-box{
+    width: 50%;
+    border: 1px dashed black;
+    height: 50%;
+}
+.central-box{
+    width: 100%;
+}
 
 
 
