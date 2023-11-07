@@ -11,7 +11,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-/* img{
+img{
     width: 100%;
 }
 
@@ -28,50 +28,75 @@ html{
     margin: 0 auto;
 }
 
+
+.button{
+    border: 1px solid ;
+    padding: 8px;
+}
+.button.blue{
+    background-color: #4261FF;
+    color: white;
+}
+
 /*
 
 DEBUG
 
 */
-.debug header{
-    border: 1px dashed black;
+header{
+    color: gray;
 }
-
-.debug header .header-top, .debug header .header-bottom{
-    border: 1px dashed black;
-}
-
-.debug .header-top div{
-    border: 1px dashed black;
-    min-height: 50px;
-    min-width: 500px;
-}
-.debug .header-bottom div{
-    border: 1px dashed black;
-    min-height: 50px;
-    min-width: 500px;
-}
-.header-top{
-    min-height: 100px;
-    background-color: lightcoral;
-}
-
 /* HEADER  */
+
 
 .header-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    padding: 5px;
 }
 
-.header-bottom-text{
-    width: 40%;
-    background-color: aqua;
+.header-top div ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
 }
+
+.header-top div ul li{
+    padding: 10px;
+}
+
+#H1{
+    font-size: 5em;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.header-bottom{
+    background-color: #B4D0E7;
+    padding-top: 100px;
+}
+.header-bottom-text{
+    width: 30%;
+}
+.header-bottom-text ul{
+    list-style-type: none;
+}
+
+.header-bottom-text ul li{
+    padding-bottom: 40px;
+}
+
+.fa-solid.fa-arrow-down.black{
+    color: black;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
 
 .header-bottom-img{
-    width: 60%;
-    background-color: azure;
+    width: 70%;
 }
 
 
@@ -103,6 +128,27 @@ MAIN
     width: 100%;
     margin-top: 50px;
 }
+
+.first-section{
+   padding-top: 150px;
+}
+
+.user-destination{
+    text-align: center;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+#radio-input{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 
 /* Second section  */
 
@@ -174,7 +220,18 @@ MAIN
 .central-box{
     width: 100%;
 }
+.sixth-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    min-height: 400px;
+    background-color: aqua;
+}
 
+.seventh-section{
+    margin-top: 50px;
+}
 
 
 
