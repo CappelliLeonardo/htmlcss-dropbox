@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* img{
+    width: 100%;
+}
+
 /*
 GENERAL
 */
@@ -19,3 +27,65 @@ html{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/*
+
+DEBUG
+
+*/
+.debug header{
+    border: 1px dashed black;
+}
+
+.debug header .header-top, .debug header .header-bottom{
+    border: 1px dashed black;
+}
+
+.debug .header-top div{
+    border: 1px dashed black;
+    min-height: 50px;
+    min-width: 500px;
+}
+.debug .header-bottom div{
+    border: 1px dashed black;
+    min-height: 50px;
+    min-width: 500px;
+}
+.header-top{
+    min-height: 100px;
+    background-color: lightcoral;
+}
+
+/* HEADER  */
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom-text{
+    width: 40%;
+    background-color: aqua;
+}
+
+.header-bottom-img{
+    width: 60%;
+    background-color: azure;
+}
+
+
+.header-bottom-text, .header-bottom-img{
+    height: 400px;
+}
+.header-bottom-flex{
+    display: flex;
+}
+
+
+
+
+
+
+
+
