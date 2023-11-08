@@ -24,7 +24,7 @@ html{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -47,6 +47,7 @@ DEBUG
 */
 header{
     color: gray;
+    padding-bottom: 150px;
 }
 /* HEADER  */
 
@@ -132,12 +133,12 @@ MAIN
     width: 30%;
 }
 
-.tarif > *, .features > *, .trial > *, .recap > *{
+.tarif > *, .features > *, .trial > *, .recap > *, .box-30 > *, .slide > *{
     margin-left: 20px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 .tarif, .features, .recap{
     padding-bottom: 30px;
@@ -162,17 +163,38 @@ MAIN
 .card.horizontal{
     width: 100%;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-
-
-
-.first-section{
-   padding-top: 150px;
+.card-header.horizontal{
+    width: 100%;
 }
 
+.box-70{
+    width: 70%;
 
+}
+.box-30{
+    width: 30%;
+    position: relative;
+}
 
+.box-30 div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.button.blue.box30{
+    position: absolute;
+    top: 16px;
+    left: 30px;
+}
+
+.card-container div h2{
+    width: 100%;
+}
 h2{
     font-size: 2em;
 }
@@ -183,6 +205,22 @@ h2{
 }
 
 
+/*
+    section
+*/
+
+
+.sub-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.slide{
+    width: 33%;
+}
+
 
 /* Second section  */
 
@@ -192,43 +230,10 @@ h2{
     margin-top: 50px;
 }
 
-.box-img{
-    width: 60%;
-    border: 1px dashed black;
-    background-color: lightcoral;
-}
-.box-text{
-    width: 40%;
-    border: 1px dashed black;
-    background-color: aqua;
+.discover-more > *{
+    margin-bottom: 50px;
 }
 
-.third-section{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 50px;
-
-}
-
-.title-third-section{
-    width: 100%;
-    text-align: center;
-}
-.box-third-section{
-    border: 1px dashed black;
-    min-height: 300px;
-    width: calc((100% / 3) - 50px);
-    margin: 25px;
-    background-color: lightcoral;
-}
-
-.fourth-section{
-    margin-top: 100px;
-    margin-left:  25px;
-    margin-right: 25px;
-    border: 1px dashed black;
-}
 
 .fifth-section{
     width: 100%;
@@ -250,6 +255,7 @@ h2{
     width: 50%;
     border: 1px dashed black;
     height: 50%;
+    display: flex;
 }
 .central-box{
     width: 100%;
