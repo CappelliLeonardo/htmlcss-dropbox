@@ -7,10 +7,13 @@
     box-sizing: border-box;
 }
 
-/* a{
+
+
+a{
     text-decoration: none;
     color: inherit;
-} */
+}
+
 img{
     width: 100%;
 }
@@ -133,7 +136,7 @@ MAIN
     width: 30%;
 }
 
-.tarif > *, .features > *, .trial > *, .recap > *, .box-30 > *, .slide > *{
+.tarif > *, .features > *, .trial > *, .recap > *, .box-30 > *, .slide > *, .central-box > *{
     margin-left: 20px;
     margin-right: 10px;
     margin-top: 10px;
@@ -226,8 +229,8 @@ h2{
 
 .box-flex{
     display: flex;
-    min-height: 400px;
-    margin-top: 50px;
+    min-height: 300px;
+    /* margin-top: 50px; */
 }
 
 .discover-more > *{
@@ -237,7 +240,6 @@ h2{
 
 .fifth-section{
     width: 100%;
-    border: 1px dashed black;
     height: calc(100vw / 3);
     display: flex;
     margin-top: 50px;
@@ -245,7 +247,6 @@ h2{
 
 .medium-box{
     width: calc(100% / 3);
-    border: 1px dashed black;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -253,27 +254,108 @@ h2{
 
 .small-box{
     width: 50%;
-    border: 1px dashed black;
     height: 50%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-box div{
+    width: 50%;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
+
+.small-box.uno{
+    background-color:#A2D39B ;
+}
+.small-box.due{
+    background-color: #60082A;
+}
+.small-box.tre{
+    background-color:#4593CE;
+}
+.small-box.quattro{
+    background-color: #ED1C1D;
+}
+.small-box.cinque{
+    background-color: #D5001F;
+}
+.small-box.sei{
+    background-color:#B4D0E7 ;
+}
+.small-box.sette{
+    background:#1B2482;
+}
+.small-box.otto{
+    background-color: #F6D830 ;
 }
 .central-box{
     width: 100%;
+    background-color:#F5F5F5 ;
 }
+
+#design-black-logo{
+    width: 50%;
+}
+
+.central-box div hr{
+    width: 20%;
+}
+
+
 .sixth-section{
     display: flex;
-    justify-content: space-around;
+    background-color: #B4D0E7;
+}
+
+.box-70.red{
+    color: #5C0000;
+}
+.button.white{
+    color: grey;
+    background-color: white;
+    border: none;
+}
+
+.box-flex.lightblue{
     align-items: center;
-    margin-top: 50px;
-    min-height: 400px;
-    background-color: aqua;
 }
 
-.seventh-section{
-    margin-top: 50px;
+.faq div{
+    margin-bottom: 20px;
+}
+.faq-section{
+    display: flex;
+    justify-content: space-between;
 }
 
+/* 
+    FOOTER
+*/
+footer{
+    background-color: black;
+    min-height: 300px;
+}
 
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    color: white;
+
+}
+
+#footer-list{
+    list-style-type: none;
+}
+
+#footer-list li h3{
+    padding-bottom: 15px;
+}
+#footer-list li{
+    margin: 10px;
+}
 
 
 
