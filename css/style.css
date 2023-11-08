@@ -7,10 +7,10 @@
     box-sizing: border-box;
 }
 
-a{
+/* a{
     text-decoration: none;
     color: inherit;
-}
+} */
 img{
     width: 100%;
 }
@@ -32,6 +32,8 @@ html{
 .button{
     border: 1px solid ;
     padding: 8px;
+    text-decoration: none;
+    color: inherit;
 }
 .button.blue{
     background-color: #4261FF;
@@ -116,12 +118,45 @@ MAIN
 .card-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-header{
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 10px;
 }
 .card{
     min-height: 200px;
-    border: 1px dashed black;
+    border: 1px solid gray;
     width: 30%;
-    background-color: lightcoral;
+}
+
+.tarif > *, .features > *, .trial > *, .recap > *{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.tarif, .features, .recap{
+    padding-bottom: 30px;
+}
+
+.trial{
+    text-align: left;
+}
+
+.small-hr{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+}
+
+
+.fa-solid.fa-check{
+    color: #4261FF;
 }
 
 .card.horizontal{
@@ -129,15 +164,14 @@ MAIN
     margin-top: 50px;
 }
 
+
+
+
 .first-section{
    padding-top: 150px;
 }
 
-.user-destination{
-    text-align: center;
-    border: 1px solid gray;
-    padding: 5px;
-}
+
 
 h2{
     font-size: 2em;
