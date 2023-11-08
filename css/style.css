@@ -6,14 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
 a{
     text-decoration: none;
     color: inherit;
 }
-
 img{
     width: 100%;
 }
@@ -31,9 +27,7 @@ html{
     margin: 0 auto;
 }
 
-
 .button{
-    border: 1px solid ;
     padding: 8px;
     text-decoration: none;
     color: inherit;
@@ -43,14 +37,13 @@ html{
     color: white;
 }
 
-/*
-
-DEBUG
-
-*/
 header{
     color: gray;
     padding-bottom: 150px;
+}
+
+section{
+    margin-bottom: 100px;
 }
 /* HEADER  */
 
@@ -74,7 +67,7 @@ header{
 }
 
 #H1{
-    font-size: 5em;
+    font-size: 4em;
     color: black;
     padding-bottom: 50px;
 }
@@ -105,10 +98,6 @@ header{
     width: 70%;
 }
 
-
-.header-bottom-text, .header-bottom-img{
-    height: 400px;
-}
 .header-bottom-flex{
     display: flex;
 }
@@ -131,7 +120,6 @@ MAIN
     padding: 10px;
 }
 .card{
-    min-height: 200px;
     border: 1px solid gray;
     width: 30%;
 }
@@ -146,10 +134,9 @@ MAIN
 .tarif, .features, .recap{
     padding-bottom: 30px;
 }
-
-.trial{
-    text-align: left;
-}
+/* .trial{
+    text-align: center;
+} */
 
 .small-hr{
     width: 20%;
