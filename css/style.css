@@ -299,6 +299,7 @@ h2{
 .sixth-section{
     display: flex;
     background-color: #B4D0E7;
+    margin-top: -100px;
 }
 
 .box-70.red{
@@ -347,6 +348,20 @@ footer{
 }
 #footer-list li{
     margin: 10px;
+}
+
+.HR-footer{
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+#language{
+    color: white;
+    padding-bottom: 50px;
+}
+
+.footer-bottom{
+    margin-bottom: -100px;
 }
 
 
