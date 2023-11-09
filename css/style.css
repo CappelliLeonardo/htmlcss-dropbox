@@ -39,7 +39,6 @@ html{
 
 header{
     color: gray;
-    padding-bottom: 150px;
 }
 
 section{
@@ -69,12 +68,13 @@ section{
 #H1{
     font-size: 4em;
     color: black;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .header-bottom{
     background-color: #B4D0E7;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .header-bottom-text{
     width: 30%;
@@ -93,13 +93,13 @@ section{
     padding-top: 50px;
 }
 
-
 .header-bottom-img{
     width: 70%;
 }
 
 .header-bottom-flex{
     display: flex;
+    margin-bottom: -100px;
 }
 
 /*
@@ -192,6 +192,11 @@ h2{
 #radio-input{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#radio-input > *{
+    display: inline-block;
+    margin-right: 20px;
 }
 
 
