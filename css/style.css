@@ -124,15 +124,8 @@ MAIN
     width: 30%;
 }
 
-.fa-ul.tarif > li{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
 
---------------------------------
+
 .tarif > *, .features > *, .trial > *, .recap > *, .box-30 > *, .slide > *, .central-box > *{
     margin-left: 20px;
     margin-right: 10px;
