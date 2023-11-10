@@ -51,6 +51,9 @@ section{
     align-items: center;
     background-color: white;
     padding: 5px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
 .header-top div ul{
@@ -71,7 +74,7 @@ section{
 
 .header-bottom{
     background-color: #B4D0E7;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .header-bottom-text{
@@ -224,7 +227,6 @@ h2{
 .box-flex{
     display: flex;
     min-height: 300px;
-    /* margin-top: 50px; */
 }
 
 .discover-more > *{
