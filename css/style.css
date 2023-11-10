@@ -54,6 +54,7 @@ section{
     position: fixed;
     width: 100%;
     margin-bottom: 100px;
+    z-index: 1;
 }
 
 .header-top div ul{
@@ -123,7 +124,6 @@ MAIN
     border: 1px solid gray;
     width: 30%;
 }
-
 
 
 .tarif > *, .features > *, .trial > *, .recap > *, .box-30 > *, .slide > *, .central-box > *{
